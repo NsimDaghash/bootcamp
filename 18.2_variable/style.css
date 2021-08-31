@@ -1,0 +1,105 @@
+:root{
+    --primarycolor: rgb(57, 187, 238);
+    --movein: 5px;
+}
+    a:hover{
+        color:var(--primarycolor);
+        background-color: magenta;
+    }
+    body{
+        font-family: "Sofia", sans-serif;
+      /*  background-color: skyblue;*/
+        color:teal;
+    }
+    h3{
+        text-align: center;
+    }
+    h1,h2{
+        text-align: center;
+        font-family: "Audiowide", sans-serif;
+    }
+    p{
+        font-family: "Trirong", serif;
+    }   
+    #content{
+        background-color: var(--primarycolor);
+        width: calc(80% - 5px);
+        float: right;
+        padding: var(--movein);
+        /*margin: 0 10 auto;*/
+    }        
+
+    *{
+        box-sizing: border-box;
+        overflow: auto;
+    }
+    #header {
+        max-width: 960px;
+        background-color: var(--primarycolor);
+        color: rgb(41, 45, 240);
+        text-align: center;
+        height: fixed;
+        margin:10px auto;
+        padding: var(--movein);
+        vertical-align: middle;
+    }
+    #right-section{
+        background-color: var(--primarycolor);
+        width: calc(100% - 185px);
+        float: right;
+        padding: var(--movein);
+        height: 270px;
+        text-align: left;
+    }
+    #left-section{
+        font-family: "Trirong", serif;
+        box-shadow: 1px 1px 5px 5px rgb(100, 93, 93);
+        font-size: 14px;
+        color: floralwhite;
+        background-color: var(--primarycolor);
+        float: left;
+        padding:var(--movein);
+        width: 180px;
+        height: 270px;
+
+    }
+    #footer{
+        background-color: var(--primarycolor);
+        color: rgb(11, 138, 43);
+        clear: both;
+        text-align: center;
+        padding: var(--movein);
+        max-width: 960px;
+        margin:10px auto;
+        vertical-align: middle;
+    }
+    .container{
+        max-width: 960px;
+        margin:10px auto;
+        background-color: var(--primarycolor);
+        padding: 10px;
+    }
+    #follow{
+        background-color: var(--primarycolor);
+        width: fixed;
+        float: left;
+        padding: var(--movein);
+    }   
+    #contact{
+        background-color: rrgb(25, 231, 204);
+        width: auto;
+        float: right;
+        padding: var(--movein);
+    }      
+    /*  ----------------  */    
+    @media(max-width: 500px) {
+        #right-section {
+         font-size: 10px;
+        }
+        h1{
+            font-size: 16px;
+        }
+        h2{
+            font-size: 14px;
+        }
+    }

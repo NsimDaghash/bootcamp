@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layouts</title>
+</head>
+    <style>
+        *{
+            box-sizing: border-box;
+            overflow: auto;
+        }
+        #header {
+            background-color: cyan;
+            color: rgb(41, 45, 240);
+            text-align: center;
+            height: 100px;
+            margin:10px auto;
+            padding: 5px;
+            vertical-align: middle;
+            line-height: 90px; 
+            max-width: 960px;
+        }
+        #right-section{
+            background-color: #53da75;
+            width: calc(75% - 5px);
+            float: right;
+            padding: 5px;
+            height: 400px;
+            text-align: right;
+            /*margin: 0 10 auto;*/
+        }
+        #left-section{
+            background-color: darkcyan;
+            float: left;
+            padding: 5px;
+            width: calc(25% - 5px);
+            height: 400px;
+            text-align: left;
+        }
+        #footer{
+            background-color: #e0a250;
+            color: rgb(11, 138, 43);
+            clear: both;
+            text-align: center;
+            padding: 5px;
+            height: 100px;
+            max-width: 960px;
+            margin:10px auto;
+            vertical-align: middle;
+            line-height: 90px; 
+        }
+        .container{
+            max-width: 960px;
+            margin:10px auto;
+        }
+    </style>
+
+    <body>    
+        <div id="header">
+                My layout page
+        </div>
+        <div class="container">
+            <div id="left-section">
+                notes :
+                <P>1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio delectus ullam</P>
+                <P>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur optio hic voluptates repudiandae quo.another two words .
+                </P>
+
+            </div>
+            <div id="right-section">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio repellat, minus, autem ipsum omnis odio, cupiditate nisi eaque alias distinctio deserunt! Ex voluptate obcaecati nesciunt tempora, deleniti quod necessitatibus quo.
+                    </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur optio hic voluptates repudiandae quo. 
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus quasi enim obcaecati, odio aspernatur libero alias animi, quo nisi, error eos dolore hic! Natus nisi tempore qui commodi quibusdam nobis?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, reprehenderit eius, ullam soluta eos odio optio earum quae laborum in nostrum hic ipsa incidunt! Mollitia eius doloribus ad labore nemo?
+                </p>
+            </div>
+        </div>
+        <div id="footer">
+            the footer
+        </div>
+    </body>
+</html>
