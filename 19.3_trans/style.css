@@ -15,7 +15,7 @@ body{
     position: relative;
     border: 3px black solid;
     height:100px ;
-    width: 300px;
+    width: 400px;
     font-size: 20px;
     flex: 0 0 26%;
     overflow: hidden;
@@ -72,7 +72,7 @@ body{
     position: absolute;
     width: 100%;
     height: 100%;
-    transform: rotate(90deg) translate(-182px,83px) ;
+    transform: rotate(90deg) translate(-182px,83px);
     transition: all 1s;
     z-index: -2;
     
